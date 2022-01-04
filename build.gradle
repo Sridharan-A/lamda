@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.lamda.LamdaBasis'
+        )
+    }
+}
+sourceCompatibility=1.8
+targetCompatibility=1.8
+repositories{
+    mavenCentral()
+}
+
+dependencies {
+
+
+}
+
+
